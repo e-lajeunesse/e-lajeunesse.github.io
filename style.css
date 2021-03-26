@@ -4,7 +4,21 @@
     border-radius: 50%;
 }
 
+.outerContainer{
+    background: url(../Portfolio/images/museum.jpg) no-repeat center center fixed;    
+    background-size: cover;
+}
+.outerContainer-main{
+    background: url(../Portfolio/images/museum.jpg) no-repeat center center fixed;    
+    background-size: cover;
+}
+.main-content{
+    background-color: rgb(255, 255, 255);
+}
 
+.spacer{
+    height:50%;
+}
 
 .rowContainer{
     
@@ -12,8 +26,19 @@
 }
 
 #sidebar{
-    background-color: #26405c;
-    height:100vh;
+    background-color: #26405ce5 !important;
+    height:100vh;    
+}
+
+
+
+.home-heading{
+    font-weight: 600;
+    font-size:58px;
+}
+.home-subheading{
+    font-weight:500;
+    font-size:30px;
 }
 
 .carousel-control-next-icon {
@@ -59,6 +84,9 @@
     #projects{
         border:1px solid black;
     }
+    #sidebar{
+        height:20%;
+    }
 
   }
 
@@ -76,5 +104,8 @@
     #profilePic{
         max-width:20%;
         float:left;        
+    }
+    #sidebar{
+        height:20%;
     }
   }
