@@ -27,10 +27,26 @@
 
 #sidebar{
     background-color: #26405ce5 !important;
-    height:100vh;    
+    height:100vh;   
+    display:flex;    
+    flex-direction: column;
+    justify-content: center;
+
 }
 
+/* .sidebar-content{
+ margin-top: 60%;
+ border:5px solid black;
+ height:40%;
+} */
 
+
+.modal-dialog {
+    height: 90%; /* = 90% of the .modal-backdrop block = %90 of the screen */
+  }
+  .modal-content {
+    height: 100%; /* = 100% of the .modal-dialog block */
+  }
 
 .home-heading{
     font-weight: 600;
@@ -60,6 +76,13 @@
     height:350px;
 }
 
+
+.skills {
+    font-size: 20px;
+    border: 1px solid black;
+    box-shadow: 1px 5px 5px;
+}
+
 @media screen and (max-width: 992px) and (min-width: 769px) {
 
     #profilePic{
@@ -85,8 +108,9 @@
         border:1px solid black;
     }
     #sidebar{
-        height:20%;
+        height:10%;
     }
+
 
   }
 
@@ -106,6 +130,7 @@
         float:left;        
     }
     #sidebar{
-        height:20%;
+        height:10%;
     }
+
   }

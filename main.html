@@ -29,6 +29,33 @@
             <a class="nav-link text-light" href="#">Skills</a>
           </li>
           <li class="nav-item">
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+              Launch demo modal
+            </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog modal-xl" "role=" document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body" id="modal-body">
+                    <embed src="../Portfolio/images/resume.pdf" frameborder="0" width="100%" height="100%">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
             <a class="nav-link text-light" href="images/resume.pdf" target="_blank">Resume</a>
           </li>
           <li class="nav-item">
@@ -65,143 +92,182 @@
             You can find my code on Github , and see more about my experience on Linkedin or by viewing my resume.</div>
         </section>
 
+        <br>
+        <br>
 
-        <h2 class="mt-3"> Skills </h2>
+        <h2 class="my-3 py-3">Projects</h2>
+        <!-- Begin carousel -->
+        <div id="carouselExampleControls" class="carousel slide my-3 py-3" data-ride="carousel">
+          <div class="carousel-inner">
+
+            <div class="carousel-item active">
+              <div class="card  mx-auto projectCard " style="max-width: 700px;">
+                <div class="row no-gutters">
+                  <div class="col-md-5">
+                    <img src="images\Battleship2.png" class="card-img  d-sm-inline" alt="...">
+                  </div>
+                  <div class="col-md-7">
+                    <div class="card-body">
+                      <h5 class="card-title">Battleship</h5>
+                      <p class="card-text">This is a recreation of the classic board game Battleship that is playable
+                        by
+                        two players
+                        and runs in the console, the game was built using C# and object oriented programming
+                        techniques.
+                        This was originally
+                        completed as a group project, however I've since independently added additional features such
+                        as
+                        additional ship classes. </p>
+
+                      <a class="btn btn-primary" href="https://github.com/e-lajeunesse/Battleship" target="_blank"
+                        role="button">See on
+                        Github</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="card  mx-auto projectCard " style="max-width: 700px;">
+                <div class="row no-gutters">
+                  <div class="col-md-5">
+                    <img src="images/janko-ferlic-books-unsplash.jpg" class="card-img  d-sm-inline" alt="...">
+                  </div>
+                  <div class="col-md-7">
+                    <div class="card-body">
+                      <h5 class="card-title">BookLover API</h5>
+                      <p class="card-text">This is a Web API that was completed as a group project using C#,
+                        ASP.NET and Entity framework. The API stores
+                        data for books and authors and also contains endpoints for users to review books and comment
+                        on
+                        reviews.
+                        Users can create "Bookshelves" or lists of books that can be shared, and also maintain a
+                        private
+                        "To Read" list.
+                        The API also has methods which utilize
+                        the Google Books API to search for books and save them to our database. </p>
+
+                      <a class="btn btn-primary" href="https://github.com/e-lajeunesse/BookLover" target="_blank"
+                        role="button">See on
+                        Github</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="carousel-item">
+              <div class="card  mx-auto projectCard " style="max-width: 700px;">
+                <div class="row no-gutters">
+                  <div class="col-md-5">
+                    <img src="images/etch1.PNG" class="card-img  d-sm-inline" alt="...">
+                  </div>
+                  <div class="col-md-7">
+                    <div class="card-body">
+                      <h5 class="card-title">Etch-a-Sketch</h5>
+                      <p class="card-text">This is an "Etch-a-sketch" website built with basic HTML, CSS and Javascript
+                        which allows users to draw pictures on a colored grid. Users can change
+                        the size and colors of the grid and download a copy of their finished picture. </p>
+
+                      <a class="btn btn-primary" href="https://github.com/e-lajeunesse/EtchASketch" target="_blank"
+                        role="button">See on
+                        Github</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <!-- end carousel -->
+
+        <h2 class="my-3"> Skills </h2>
         <hr>
-        <ul>
-          <li>C#</li>
-          <li>.NET Framework <img src="images/aspnet.png" alt=""></li>
-          <li>.NET Core <img src="images/download.jfif" alt=""></li>
-          <li>Entity Framework</li>
-          <li>HTML/CSS <img src="images/css3Logo.png" alt=""></li>
-          <li> Bootstrap</li>
-          <li>Javascript</li>
-          <li>Git/Github</li>
-          <li>Agile methodology</li>
-        </ul>
-
-
-        <br>
-        <br>
-        <h2>Projects</h2>
-        <div class="carouselContainer d-none d-md-inline">
-          <div id="carouselExampleControls" class="carousel slide my-3 y" data-ride="carousel">
-            <div class="carousel-inner ">
-              <div class="carousel-item active ">
-
-
-                <div class="card  mx-auto projectCard" style="max-width: 700px;">
-                  <div class="row no-gutters">
-                    <div class="col-md-5">
-                      <img src="images\Battleship2.png" class="card-img  d-sm-inline" alt="...">
-                    </div>
-                    <div class="col-md-7">
-                      <div class="card-body">
-                        <h5 class="card-title">Battleship</h5>
-                        <p class="card-text">This is a recreation of the classic board game Battleship that is playable
-                          by
-                          two players
-                          and runs in the console, the game was built using C# and object oriented programming
-                          techniques.
-                          This was originally
-                          completed as a group project, however I've since independently added additional features such
-                          as
-                          additional ship classes. </p>
-
-                        <a class="btn btn-primary" href="https://github.com/e-lajeunesse/Battleship" target="_blank"
-                          role="button">See on
-                          Github</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-
-              </div>
-
-
-
-              <div class="carousel-item">
-
-
-                <div class="card  mx-auto projectCard" style="max-width: 700px;">
-                  <div class="row no-gutters">
-                    <div class="col-md-5">
-                      <img src="images\janko-ferlic-books-unsplash.jpg" class="card-img  d-sm-inline" alt="...">
-                    </div>
-                    <div class="col-md-7">
-                      <div class="card-body">
-                        <h5 class="card-title">BookLover API</h5>
-                        <p class="card-text">This is a Web API that was completed as a group project using C#,
-                          ASP.NET and Entity framework. The API stores
-                          data for books and authors and also contains endpoints for users to review books and comment
-                          on
-                          reviews.
-                          Users can create "Bookshelves" or lists of books that can be shared, and also maintain a
-                          private
-                          "To Read" list.
-                          The API also has methods which utilize
-                          the Google Books API to search for books and save them to our database.
-                          </a></p>
-                        <a class="btn btn-primary" href="https://github.com/e-lajeunesse/BookLover" target="_blank"
-                          role="button">See on
-                          Github</a>
-
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-
-
-
+        <!-- <div class="row d-flex flex-row justify-content-around align-items-center mx-auto skill-row">
+          <img src="images/dotnet-bw.jpg" class=" col-2 skill-image " alt="">
+          <img src="images/asp-net-mvc-bw.png" class="col-2 skill-image" alt="">          
+          <img src="images/asp-net-logo-png-1-bw.png" class="col-2 skill-image" alt="">
+          <img src="images/git-bw.jpg" class="col-2 skill-image" alt="">
         </div>
+        <div class="row d-flex flex-row justify-content-around skill-row">
+          <img src="images/html5Logo.png" class="col-2 skill-image" alt="">
+          <img src="images/css3Logo.png" class="col-2 skill-image" alt="">
+          <img src="images/javascriptLogo-bw.png" class="col-2 skill-image" alt="">
+          <img src="images/github.png" class="col-2 skill-image" alt="">          
+        </div> -->
 
-
-
-        <div class="card  mx-auto projectCard d-lg-none d-xl-none" style="max-width: 700px;">
-          <div class="row no-gutters">
-            <div class="col-md-5">
-              <img src="images\Battleship2.png" class="card-img  d-sm-inline" alt="...">
-            </div>
-            <div class="col-md-7">
-              <div class="card-body">
-                <h5 class="card-title">Battleship</h5>
-                <p class="card-text">This is a recreation of the classic board game Battleship that is playable
-                  by
-                  two players
-                  and runs in the console, the game was built using C# and object oriented programming
-                  techniques.
-                  This was originally
-                  completed as a group project, however I've since independently added additional features such
-                  as
-                  additional ship classes. </p>
-
-                <a class="btn btn-primary" href="https://github.com/e-lajeunesse/Battleship" target="_blank"
-                  role="button">See on
-                  Github</a>
-              </div>
-            </div>
+        <div class="row d-flex justify-content-around pt-3">
+          <div class="skills col-3 ">
+            <h2>Back-end</h2>
+            <ul>
+              <li class="py-1">C#</li>
+              <li class="py-1"> .NET Framework / .NET Core</li>
+              <li class="py-1"> ASP.NET Web API</li>
+              <li class="py-1">Entity Framework</li>
+            </ul>
+          </div>
+          <div class="skills col-3">
+            <h2>Front-End</h2>
+            <ul>
+              <li class="py-1">ASP.NET MVC</li>
+              <li class="py-1">HTML / CSS</li>
+              <li class="py-1">Javascript</li>
+              <li class="py-1">Bootstrap</li>
+            </ul>
           </div>
         </div>
 
-        <h3> Get in touch</h3>
-        <img src="images/resume.pdf" alt="resume">
+        <section class="contact">
+          <h1>Let's Connect</h1>
+          <form class="col-10">
+            <div class="form-row mx-auto">
+              <div class="form-group col-md-6">
+                <label for="inputEmail4">Name</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Name">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputPassword4">Email</label>
+                <input type="password" class="form-control" id="inputPassword4" placeholder="Email">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputAddress">Subject</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="Subject">
+            </div>
+            <div class="form-group">
+              <label for="inputAddress2">Message 2</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Message">
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </section>
+
+
+
+
+
+
+
+
 
 
       </div>
+
+
+
+
+
       <!-- /main content  -->
 
 
