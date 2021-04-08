@@ -1,3 +1,11 @@
+.about{
+    font-size: 1.4em;
+}
+
+/* .skills p{
+    font-size: 1.3em;
+} */
+
 #profilePic{
     max-width: 50%;
     height:auto;
@@ -13,7 +21,14 @@
     background-size: cover;
 }
 .main-content{
-    background-color: rgb(255, 255, 255);
+    background-color: #FFFFFF;
+    /* color:#888888; */
+    /* color:#33415C; */
+    font-weight: 450;
+}
+
+.section-header{
+    font-weight: 450;
 }
 
 .spacer{
@@ -25,20 +40,28 @@
     min-height: 100vh;
 }
 
+.sidebar-item{
+    position:-webkit-sticky;
+    position: sticky;
+    top:0;
+}
+
 #sidebar{
-    background-color: #26405ce5 !important;
+    background-color: #415a77e5 !important;
+    /* background-color: #26405ce5 !important; */
     height:100vh;   
     display:flex;    
     flex-direction: column;
     justify-content: center;
-
 }
 
-/* .sidebar-content{
+
+
+ /* .sidebar-content{
  margin-top: 60%;
  border:5px solid black;
  height:40%;
-} */
+}  */
 
 
 .modal-dialog {
@@ -46,6 +69,10 @@
   }
   .modal-content {
     height: 100%; /* = 100% of the .modal-dialog block */
+    z-index:1100;
+  }
+  .modal-backdrop{
+      display:none;
   }
 
 .home-heading{
@@ -69,13 +96,26 @@
 }
 
 
+/* Projects Section */
+
+
+
 .card-img{
-    height:350px;
+    height:550px;
 }
 .card-body{
-    height:350px;
+    height:550px;
 }
 
+.project-card{
+    font-size: 1.3em;
+}
+
+
+
+
+
+/* Skills Section */
 
 .skills {
     font-size: 20px;
@@ -83,6 +123,14 @@
     box-shadow: 1px 5px 5px;
 }
 
+
+
+/* Contact Section */
+.input-field{
+    font-size: 1.3em;
+}
+
+/* Responsiveness */
 @media screen and (max-width: 992px) and (min-width: 769px) {
 
     #profilePic{

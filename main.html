@@ -13,15 +13,18 @@
 
 <body>
   <div class="container-fluid outerContainer-main">
-    <div class="row ">
+
+    <div class="row">
+
       <!--sidebar -->
-      <header class="col-lg-3 sidebar text-center sticky-top-lg" id="sidebar">
+      <header class="col-lg-3 text-center sidebar-item" id="sidebar">
+
         <div class="py-3 ">
-          <img src="images\profile3.jpg" alt="Headshot" class=" d-sm-inline my-lg-3" id="profilePic">
+          <img src="images\profile3.jpg" alt="Headshot" class=" d-sm-inline my-lg-3 " id="profilePic">
           <h2 class="py-lg-1 text-white"><a class="nav-link text-light" href="index.html">Eric LaJeunesse</a></h1>
         </div>
         <!-- nav -->
-        <ul class="nav justify-content-center flex-lg-column sticky-top-lg d-block-lg">
+        <ul class="nav  d-block-lg justify-content-center flex-lg-column d-block-lg">
           <li class="nav-item ">
             <a class="nav-link text-light" href="#">About</a>
           </li>
@@ -30,32 +33,7 @@
           </li>
           <li class="nav-item">
 
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-              Launch demo modal
-            </button>
 
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-              aria-hidden="true">
-              <div class="modal-dialog modal-xl" "role=" document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body" id="modal-body">
-                    <embed src="../Portfolio/images/resume.pdf" frameborder="0" width="100%" height="100%">
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                  </div>
-                </div>
-              </div>
-            </div>
             <a class="nav-link text-light" href="images/resume.pdf" target="_blank">Resume</a>
           </li>
           <li class="nav-item">
@@ -66,42 +44,93 @@
           </li>
         </ul>
         <!-- /nav -->
+        <div class="h-25" id="sidebar-spacer"></div>
+
+
+
+
+
+
+
+
+
+
       </header>
+
+
+
+
       <!-- /sidebar  -->
 
       <!-- main content  -->
-      <div class="col-lg-9 main-content">
+      <div class="col-lg-9 main-content text-body">
 
 
-        <h2 class="mt-5"> About Me</h2>
-        <hr>
-        <section class="row d-flex justify-content-center">
+        <h2 class="my-3 mt-5 pt-5 display-4 section-header"> About</h2>
+        <hr class="border border-secondary">
+        <section class="row d-flex justify-content-center mt-5 py-3">
 
-          <div class="col-md-6 ">I became interested in programming about a year ago and began following some online
+          <!-- <p class="col-md-5 mx-3 about">I became interested in programming about around April of 2020 and began
+            following some online
             courses
             such as Harvard's CS50 course covering topics including C, Python, Javascript and HTML/CSS. I decided to
             commit to making coding
             my full time career and enrolled in Eleven Fity Academy's software development course which is a 12 week
             immersive course
             teaching full-stack development using ASP.NET.
-          </div>
-          <div class="col-md-6 ">My most recent professional exerience was working for the VA adjudicating disability
+          </p>
+          <p class="col-md-6 about">My most recent professional exerience was working for the Department of Veterans
+            Affairs adjudicating disability
             benefit claims.
             I also served in the Marine Corps working in aviation and in between earned a degreen in economics at
             UW-Milwaukee.
-            You can find my code on Github , and see more about my experience on Linkedin or by viewing my resume.</div>
+            You can find my code on Github , and see more about my experience on Linkedin or by viewing my resume.</p> -->
+
+          <h3 class="col-md-8 mx-auto "> Thanks for taking a moment to view my portfolio,</h4>
+            <p class="col-md-8 mx-auto about my-3">
+              I became interested in programming about around April of 2020 and began
+              following some online
+              courses
+              such as Harvard's CS50 course covering topics including C, Python, Javascript and HTML/CSS. I decided to
+              commit to making coding
+              my full time career and enrolled in Eleven Fity Academy's 12 week immersive software development course.
+              Throughout the course I've
+              developed skills in C# and Object Oriented Programming and learned full-stack web development using
+              Microsoft's .NET platform along with
+              HTML and CSS.
+            </p>
+            <p class="col-md-8 mx-auto about my-3">
+              My most recent professional exerience was working for the Department of Veterans
+              Affairs adjudicating disability
+              benefit claims. Prior to that I earned a bachelor's degree in Economics from the University of
+              Wisconsin-Milwaukee,
+              and also served in the Marine Corps working in the aviation field where among other duties I was
+              responsible
+              for
+              calculating the weight and balance of the KC-130J aircraft to ensure the center of gravity remained within
+              safe limits during flight. While not directly related to programming my previous work and educational
+              experience has helped me
+              logical reasoning skills that have proved invaluable while learning software development.
+              You can find examples of my code on Github , and see more about my experience on linkedin or by viewing my
+              resume. If you want to
+              contact me please feel free to send a message through this site or reach out to me on linkedIn
+            </p>
+
+
+
         </section>
 
         <br>
         <br>
 
-        <h2 class="my-3 py-3">Projects</h2>
+        <h2 class="mt-5 mx-3  display-4 section-header">Projects</h2>
+        <hr class="mb-5  border border-secondary" border border-secondary">
         <!-- Begin carousel -->
-        <div id="carouselExampleControls" class="carousel slide my-3 py-3" data-ride="carousel">
+        <div id="carouselExampleControls" class="carousel slide  " data-ride="carousel">
           <div class="carousel-inner">
 
-            <div class="carousel-item active">
-              <div class="card  mx-auto projectCard " style="max-width: 700px;">
+            <div class="carousel-item active my-5 py-5">
+              <div class="card   mx-auto project-card " style="max-width: 950px;">
                 <div class="row no-gutters">
                   <div class="col-md-5">
                     <img src="images\Battleship2.png" class="card-img  d-sm-inline" alt="...">
@@ -128,8 +157,8 @@
               </div>
             </div>
 
-            <div class="carousel-item">
-              <div class="card  mx-auto projectCard " style="max-width: 700px;">
+            <div class="carousel-item my-5 py-5">
+              <div class="card  mx-auto project-card " style="max-width: 950px;">
                 <div class="row no-gutters">
                   <div class="col-md-5">
                     <img src="images/janko-ferlic-books-unsplash.jpg" class="card-img  d-sm-inline" alt="...">
@@ -157,8 +186,8 @@
               </div>
             </div>
 
-            <div class="carousel-item">
-              <div class="card  mx-auto projectCard " style="max-width: 700px;">
+            <div class="carousel-item my-5 py-5">
+              <div class="card  mx-auto project-card " style="max-width: 950px;">
                 <div class="row no-gutters">
                   <div class="col-md-5">
                     <img src="images/etch1.PNG" class="card-img  d-sm-inline" alt="...">
@@ -191,22 +220,9 @@
         </div>
         <!-- end carousel -->
 
-        <h2 class="my-3"> Skills </h2>
-        <hr>
-        <!-- <div class="row d-flex flex-row justify-content-around align-items-center mx-auto skill-row">
-          <img src="images/dotnet-bw.jpg" class=" col-2 skill-image " alt="">
-          <img src="images/asp-net-mvc-bw.png" class="col-2 skill-image" alt="">          
-          <img src="images/asp-net-logo-png-1-bw.png" class="col-2 skill-image" alt="">
-          <img src="images/git-bw.jpg" class="col-2 skill-image" alt="">
-        </div>
-        <div class="row d-flex flex-row justify-content-around skill-row">
-          <img src="images/html5Logo.png" class="col-2 skill-image" alt="">
-          <img src="images/css3Logo.png" class="col-2 skill-image" alt="">
-          <img src="images/javascriptLogo-bw.png" class="col-2 skill-image" alt="">
-          <img src="images/github.png" class="col-2 skill-image" alt="">          
-        </div> -->
-
-        <div class="row d-flex justify-content-around pt-3">
+        <h2 class="mt-5 mx-3 display-4 section-header "> Skills </h2>
+        <hr class="border border-secondary">
+        <div class="row d-flex justify-content-around pt-3 my-5">
           <div class="skills col-3 ">
             <h2>Back-end</h2>
             <ul>
@@ -227,28 +243,33 @@
           </div>
         </div>
 
-        <section class="contact">
-          <h1>Let's Connect</h1>
-          <form class="col-10">
-            <div class="form-row mx-auto">
-              <div class="form-group col-md-6">
-                <label for="inputEmail4">Name</label>
-                <input type="email" class="form-control" id="inputEmail4" placeholder="Name">
+        <h1 class="mt-5 pt-5">Contact Me</h1>
+        <hr class=" mb-5  border border-secondary" />
+        <section class="row contact mb-5 pb-5">
+          <form class="col-10 mx-auto ">
+            <div class="row mb-3">
+              <div class="form-group col-6 ">
+                <label class="d-none" for="inputEmail4">Name</label>
+                <input type="email" class="col-12 form-control-lg " id="inputEmail4" placeholder="Name">
               </div>
-              <div class="form-group col-md-6">
-                <label for="inputPassword4">Email</label>
-                <input type="password" class="form-control" id="inputPassword4" placeholder="Email">
+              <div class="form-group col-6">
+                <label class="d-none" for="inputPassword4">Email</label>
+                <input type="password" class="col-12 form-control-lg" id="inputPassword4" placeholder="Email">
               </div>
             </div>
+
+
             <div class="form-group">
-              <label for="inputAddress">Subject</label>
-              <input type="text" class="form-control" id="inputAddress" placeholder="Subject">
+              <label class="d-none" for="inputAddress">Subject</label>
+              <input type="text" class=" input-field form-control-lg col-md-12  mb-3" id="inputAddress"
+                placeholder="Subject">
             </div>
-            <div class="form-group">
-              <label for="inputAddress2">Message 2</label>
-              <input type="text" class="form-control" id="inputAddress2" placeholder="Message">
+            <div class="form-group ">
+              <label for="inputAddress2" class="d-none">Message </label>
+              <textarea name="text" id="" rows="8" placeholder="Message" class="input-field col-md-12"></textarea>
+
             </div>
-            
+
             <button type="submit" class="btn btn-primary">Send Message</button>
           </form>
         </section>
