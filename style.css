@@ -1,10 +1,13 @@
-.about{
-    font-size: 1.4em;
+body{
+    font-family: sans-serif;
+    color: #626262;
 }
 
-/* .skills p{
-    font-size: 1.3em;
-} */
+.about{
+    font-size: 1.25em;
+}
+
+
 
 #profilePic{
     max-width: 50%;
@@ -24,11 +27,11 @@
     background-color: #FFFFFF;
     /* color:#888888; */
     /* color:#33415C; */
-    font-weight: 450;
+    
 }
 
 .section-header{
-    font-weight: 450;
+    font-weight: 400;
 }
 
 .spacer{
@@ -56,6 +59,10 @@
 }
 
 
+#footer{
+height: 200px;
+background-color: gainsboro;
+}
 
  /* .sidebar-content{
  margin-top: 60%;
@@ -98,10 +105,20 @@
 
 /* Projects Section */
 
+.project{
+    
+    border-bottom: 3px solid #626262;
+}
+
+.project-image{
+    height:auto;
+    max-width: 350px;
+    border-radius: 15px;
+}
 
 
 .card-img{
-    height:550px;
+    height:500px;
 }
 .card-body{
     height:550px;
@@ -122,6 +139,8 @@
     border: 1px solid black;
     box-shadow: 1px 5px 5px;
 }
+
+
 
 
 

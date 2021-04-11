@@ -63,7 +63,7 @@
       <!-- /sidebar  -->
 
       <!-- main content  -->
-      <div class="col-lg-9 main-content text-body">
+      <div class=" col-lg-9 main-content ">
 
 
         <h2 class="my-3 mt-5 pt-5 display-4 section-header"> About</h2>
@@ -126,14 +126,14 @@
         <h2 class="mt-5 mx-3  display-4 section-header">Projects</h2>
         <hr class="mb-5  border border-secondary" border border-secondary">
         <!-- Begin carousel -->
-        <div id="carouselExampleControls" class="carousel slide  " data-ride="carousel">
+        <!-- <div id="carouselExampleControls" class="carousel slide  " data-ride="carousel">
           <div class="carousel-inner">
 
             <div class="carousel-item active my-5 py-5">
-              <div class="card   mx-auto project-card " style="max-width: 950px;">
+              <div class="card   mx-auto project-card border-right-0 border-left-0" style="max-width: 950px;">
                 <div class="row no-gutters">
                   <div class="col-md-5">
-                    <img src="images\Battleship2.png" class="card-img  d-sm-inline" alt="...">
+                    <img src="images\Battleship2.png" class="card-img  d-sm-inline my-3" alt="...">
                   </div>
                   <div class="col-md-7">
                     <div class="card-body">
@@ -208,6 +208,8 @@
               </div>
             </div>
 
+
+
           </div>
           <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -217,12 +219,143 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="sr-only">Next</span>
           </a>
-        </div>
+        </div> -->
         <!-- end carousel -->
 
-        <h2 class="mt-5 mx-3 display-4 section-header "> Skills </h2>
-        <hr class="border border-secondary">
-        <div class="row d-flex justify-content-around pt-3 my-5">
+        <section class="row">   
+
+          <div class="col-10 project row mx-auto pb-5 mb-5">
+            <img src="images/WIMS.PNG" alt="" class=" col-5 project-image rounded">
+            <div class="col-6 mb-3 pb-3">
+              <h5>Work Item Management System</h5>
+              <p>
+                This is a .NET Core MVC Web Application built with C#, Html, CSS and Javascript. The application allows an organization to track
+                and manange development related tasks among workers and teams, it features log in authentication and certain functions are restricted
+                based on the role of the user. Regular users can create new work items related to bugs or new features, leave notes on an existing
+                item and edit an item or mark it complete. Managers are also able to delete items or reassign them to different users, they can also 
+                reassign employees to different teams. 
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="row">
+          <div class="col-10 project row mx-auto pb-5 mb-5">
+            <img src="images/janko-ferlic-books-unsplash.jpg" alt="" class="project-image col-5">
+            <div class="col-6">
+              <h5>BookLover Web API</h5>
+              <p>
+                This is a Web API that was completed as a group project using C#,
+                ASP.NET and Entity framework. The API stores
+                data for books and authors and also contains endpoints for users to review books and comment
+                on
+                reviews.
+                Users can create "Bookshelves" or lists of books that can be shared, and also maintain a
+                private
+                "To Read" list.
+                The API also has methods which utilize
+                the Google Books API to search for books and save them to our database.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="row">   
+
+          <div class="col-10 project row mx-auto pb-5 mb-5">
+            <img src="images/Battleship2.PNG" alt="" class="col-5 project-image">
+            <div class="col-6 mb-3 pb-3">
+              <h5>Battleship Console Application</h5>
+              <p>
+                This is a recreation of the classic board game Battleship that is playable
+                by
+                two players
+                and runs in the console, the game was built using C# and object oriented programming
+                techniques.
+                This was originally
+                completed as a group project, however I've since independently added additional features such
+                as
+                additional ship classes.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="row">
+          <div class="col-10 project row mx-auto mb-5 pb-5">
+            <img src="images/calc.PNG" alt="" class="col-5 project-image">
+            <div class="col-6 mb-3 pb-3">
+              <h5>Javascript Calculator</h5>
+              <p>
+                This is a calculator application with support for the fundamental mathematical operations. The project
+                was built using
+                basic Javascript, HTML and CSS.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section class="row">
+          <div class="col-10 project row mx-auto pb-5">
+            <img src="images/etch.PNG" alt="" class="col-5 project-image">
+            <div class="col-6 mb-3 pb-3">
+              <h5>Etch-a-sketch</h5>
+              <p>
+                This is an "Etch-a-sketch" website built with basic HTML, CSS and Javascript
+                which allows users to draw pictures on a colored grid. Users can change
+                the size and colors of the grid and download a copy of their finished picture.
+              </p>
+            </div>
+          </div>
+        </section>
+
+
+        <!-- Skills -->
+
+        <h2 class="mt-5 mx-3 display-4 section-header "> Languages and Technologies </h2>
+        <hr class="border border-secondary mb-5">
+
+
+        <!-- skills images -->
+        <div class=" row ">
+          <div class="col-5 col-md-2 pb-3 my-2 mx-auto">
+            <p class="text-center skill-icon">C#</p>
+            <img class="img-fluid" src="images/c_sharp.png" alt="c sharp icon">
+          </div>
+          <div class="col-5 col-md-2 my-2 pb-3 mx-auto">
+            <p class="text-center">.NET</p>
+            <img class="img-fluid" src="images/net.png" alt=".NET icon">
+          </div>
+          <div class="col-5 col-md-2 my-2 pb-3 mx-auto">
+            <p class=" text-center">Visual Studio</p>
+            <img class="img-fluid" src="images/Visual_Studio.png" alt="VIsual Studio Icon">
+          </div>
+          <div class="col-5 col-md-2 pb-3 my-2 mx-auto">
+            <p class="text-center">VS Code</p>
+            <img class="img-fluid" src="images/vscode.png" alt="VS Code icon">
+          </div>
+        </div>
+
+        <div class=" row ">
+          <div class="col-5 col-md-2 my-2 pt-3 mx-auto">
+            <p class="text-center skill-icon">Javascript</p>
+            <img class="img-fluid" src="images/javascript.png" alt="c sharp icon">
+          </div>
+          <div class="col-5 col-md-2 my-2 pt-3 mx-auto">
+            <p class="text-center">HTML</p>
+            <img class="img-fluid" src="images/html_icon.png" alt=".NET icon">
+          </div>
+          <div class="col-5 col-md-2 my-2 pt-3 mx-auto">
+            <p class=" text-center">CSS</p>
+            <img class="img-fluid" src="images/css.png" alt="VIsual Studio Icon">
+          </div>
+          <div class="col-5 col-md-2 my-2 pt-3 mx-auto">
+            <p class="text-center">Git/Github</p>
+            <img class="img-fluid" src="images/github.png" alt="VS Code icon">
+          </div>
+        </div>
+
+        <!-- <div class="row d-flex justify-content-around pt-3 my-5">
           <div class="skills col-3 ">
             <h2>Back-end</h2>
             <ul>
@@ -241,11 +374,15 @@
               <li class="py-1">Bootstrap</li>
             </ul>
           </div>
-        </div>
+        </div> -->
+
+        <!-- /Skills -->
+
+
 
         <h1 class="mt-5 pt-5">Contact Me</h1>
         <hr class=" mb-5  border border-secondary" />
-        <section class="row contact mb-5 pb-5">
+        <section class="col-12 row contact mb-5 pb-5">
           <form class="col-10 mx-auto ">
             <div class="row mb-3">
               <div class="form-group col-6 ">
@@ -287,7 +424,11 @@
 
 
 
-
+      <footer id="footer" class="footer col-12  offset-lg-3 col-lg-9 d-flex align-items-center">
+        <div id="copywright" class="container text-center">
+          <p>© Eric LaJeunesse 2021</p>
+        </div>
+      </footer>
 
       <!-- /main content  -->
 
