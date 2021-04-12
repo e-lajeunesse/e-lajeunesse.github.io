@@ -9,6 +9,7 @@
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
+  <script src="https://kit.fontawesome.com/75354a3d87.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -20,30 +21,39 @@
 
 
       <!--sidebar -->
-      <header class="col-lg-3 sidebar text-center sticky-top" id="sidebar">
-        <div class="py-3 ">
-          <img src="images\profile3.jpg" alt="Headshot" class=" d-sm-inline my-lg-3" id="profilePic">
-          <h2 class="py-lg-1 text-white"> Eric LaJeunesse </h1>
+      <header class="col-lg-3 sidebar text-center sticky-top  p-0" id="sidebar">
+        <div class="py-3 sidebar-content  ">
+          <img src="images\profile3.jpg" alt="Headshot" class="d-none d-lg-inline my-lg-3" id="profilePic">
+          <h2 class="py-lg-1 text-light"> Eric LaJeunesse </h1>
+            
+            <!-- nav -->
+
+            <ul class="nav justify-content-center flex-lg-column  d-block-lg">
+              <li class="home-nav-item ">
+                <a class="nav-link text-light" href="main.html#about">About</a>
+              </li>
+              <li class="home-nav-item ">
+                <a class="nav-link text-light" href="main.html#projects" >Projects</a>
+              </li>
+              <li class="home-nav-item ">
+                <a class="nav-link text-light" href="main.html#skills">Skills</a>
+              </li>             
+              
+              <li class="home-nav-item ">
+                <a class="nav-link text-light " href="main.html#contact" tabindex="-1">Contact</a>
+              </li>
+              <li class="home-nav-item ">
+                <a class="nav-link text-light" href="images/resume.pdf" target="_blank">Resume</a>
+              </li>
+              
+            </ul>
+            <div class="pt-2">
+              <a href="https://github.com/e-lajeunesse" target="_blank" pl-2"><i class="fab fa-github fa-2x social-icon-main"></i></a>
+              <a href="https://www.linkedin.com/in/eric-lajeunesse/" target="_blank" class="pl-2"><i class="fab fa-linkedin fa-2x social-icon-main"></i></a>
+            </div>
+            <!-- /nav -->
         </div>
-        <!-- nav -->
-        <ul class="nav justify-content-center flex-lg-column sticky-top-lg d-block-lg">
-          <li class="nav-item ">
-            <a class="nav-link text-light" href="main.html">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="#">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="#">Resume</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light" href="#" tabindex="-1">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-light " href="#" tabindex="-1">Contact</a>
-          </li>
-        </ul>
-        <!-- /nav -->
+        <div class="h-25" id="sidebar-spacer"></div>
       </header>
       <!-- /sidebar  -->
 
@@ -57,165 +67,26 @@
       <!-- main content  -->
       <div class="col-lg-9 row d-flex justify-content-center  align-items-end">
 
-        <div class="col-lg-7">
+        <div class="col-lg-7 text-light">
           <div class="jumbotron bg-transparent">
             <h1 class="display-4 home-heading">Hi, I'm Eric,</h1>
-            <p class="lead home-subheading">I'm a software developer with skills in both the back end and front end.</p>
+            <p class="lead home-subheading">I'm a software developer skilled in developing web applications primarily
+              using C# and .NET 
+              
+              <a href="https://github.com/e-lajeunesse" target="_blank" pl-2"><i class="fab fa-github social-icon"></i></a>
+              <a href="https://www.linkedin.com/in/eric-lajeunesse/" target="_blank" class="pl-2"><i class="fab fa-linkedin social-icon"></i></a>
+            </p>
+              <div>
+                
+              </div>
             <!-- <hr class="mt-4"> -->
           </div>
+
+
         </div>
 
         <div class="spacer col-12"></div>
-        <!-- <h2 class="mt-3"> About Me</h2>
-        <hr>
-        <section class="row d-flex justify-content-center">
 
-          <div class="col-md-6 ">I became interested in programming about a year ago and began following some online
-            courses
-            such as Harvard's CS50 course covering topics including C, Python, Javascript and HTML/CSS. I decided to
-            commit to making coding
-            my full time career and enrolled in Eleven Fity Academy's software development course which is a 12 week
-            immersive course
-            teaching full-stack development using ASP.NET.
-          </div>
-          <div class="col-md-6 ">My most recent professional exerience was working for the VA adjudicating disability
-            benefit claims.
-            I also served in the Marine Corps working in aviation and in between earned a degreen in economics at
-            UW-Milwaukee.
-            You can find my code on Github , and see more about my experience on Linkedin or by viewing my resume.</div>
-        </section>
-
-
-        <h2 class="mt-3"> Skills </h2>
-        <hr>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras blandit finibus blandit. Proin ac
-          placerat nibh. Sed laoreet auctor mi, sed dictum tortor porta ac. Sed turpis libero, volutpat quis
-          libero in, fermentum vulputate lacus. Proin tortor urna, tempus eu lobortis ac, volutpat vel nisl.
-          Nullam vitae auctor augue, at faucibus enim. Quisque pharetra urna ut consequat venenatis. Proin
-          commodo tellus et leo pretium, id accumsan dui tempor. Sed ac elit in nisi sollicitudin laoreet.
-          Morbi fermentum maximus malesuada. Vivamus ut urna viverra, dapibus mauris vel, pellentesque massa.
-        </p>
-
-
-
-        <br>
-        <br>
-        <h2>Projects</h2>
-        <div class="carouselContainer d-none d-md-inline">
-          <div id="carouselExampleControls" class="carousel slide my-3 y" data-ride="carousel">
-            <div class="carousel-inner ">
-              <div class="carousel-item active ">
-
-
-                <div class="card  mx-auto projectCard" style="max-width: 700px;">
-                  <div class="row no-gutters">
-                    <div class="col-md-5">
-                      <img src="images\Battleship2.png" class="card-img  d-sm-inline" alt="...">
-                    </div>
-                    <div class="col-md-7">
-                      <div class="card-body">
-                        <h5 class="card-title">Battleship</h5>
-                        <p class="card-text">This is a recreation of the classic board game Battleship that is playable
-                          by
-                          two players
-                          and runs in the console, the game was built using C# and object oriented programming
-                          techniques.
-                          This was originally
-                          completed as a group project, however I've since independently added additional features such
-                          as
-                          additional ship classes. </p>
-
-                        <a class="btn btn-primary" href="https://github.com/e-lajeunesse/Battleship" target="_blank"
-                          role="button">See on
-                          Github</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-
-              </div>
-
-
-
-              <div class="carousel-item">
-
-
-                <div class="card  mx-auto projectCard" style="max-width: 700px;">
-                  <div class="row no-gutters">
-                    <div class="col-md-5">
-                      <img src="images\janko-ferlic-books-unsplash.jpg" class="card-img  d-sm-inline" alt="...">
-                    </div>
-                    <div class="col-md-7">
-                      <div class="card-body">
-                        <h5 class="card-title">BookLover API</h5>
-                        <p class="card-text">This is a Web API that was completed as a group project using C#,
-                          ASP.NET and Entity framework. The API stores
-                          data for books and authors and also contains endpoints for users to review books and comment
-                          on
-                          reviews.
-                          Users can create "Bookshelves" or lists of books that can be shared, and also maintain a
-                          private
-                          "To Read" list.
-                          The API also has methods which utilize
-                          the Google Books API to search for books and save them to our database.
-                          </a></p>
-                        <a class="btn btn-primary" href="https://github.com/e-lajeunesse/BookLover" target="_blank"
-                          role="button">See on
-                          Github</a>
-
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-
-              </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-
-
-
-        </div>
-
-
-
-        <div class="card  mx-auto projectCard d-lg-none d-xl-none" style="max-width: 700px;">
-          <div class="row no-gutters">
-            <div class="col-md-5">
-              <img src="images\Battleship2.png" class="card-img  d-sm-inline" alt="...">
-            </div>
-            <div class="col-md-7">
-              <div class="card-body">
-                <h5 class="card-title">Battleship</h5>
-                <p class="card-text">This is a recreation of the classic board game Battleship that is playable
-                  by
-                  two players
-                  and runs in the console, the game was built using C# and object oriented programming
-                  techniques.
-                  This was originally
-                  completed as a group project, however I've since independently added additional features such
-                  as
-                  additional ship classes. </p>
-
-                <a class="btn btn-primary" href="https://github.com/e-lajeunesse/Battleship" target="_blank"
-                  role="button">See on
-                  Github</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <h3> Get in touch</h3> -->
 
 
       </div>
@@ -239,6 +110,7 @@
   </div>
   <!-- /outer container -->
 
+  <script src="portfolio.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
     crossorigin="anonymous"></script>
