@@ -35,11 +35,11 @@ body{
 }
 
 .outerContainer{
-    background: url(../Portfolio/images/museum.jpg) no-repeat center center fixed;    
+    background: url('./images/museum.jpg') no-repeat center center fixed;    
     background-size: cover;
 }
 .outerContainer-main{
-    background: url(../Portfolio/images/museum.jpg) no-repeat center center fixed;    
+    background: url('./images/museum.jpg') no-repeat center center fixed;    
     background-size: cover;
 }
 
