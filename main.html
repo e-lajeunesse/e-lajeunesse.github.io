@@ -14,6 +14,10 @@
 
 <body>
   <div class="container-fluid outerContainer-main">
+    <!-- <div class="row">
+      <div class="main-header bg-transparent offset-3 col-9"></div>
+    </div> -->
+
 
     <div class="row">
 
@@ -60,14 +64,21 @@
 
 
       <!-- main content  -->
-      <div class=" col-lg-9 main-content ">
+      <div class=" col-lg-9 main-content border ">
+
+
 
         <!-- about -->
-        <section id="about" class="my-5 pt-5">
-          <h2 class="my-3 mt-5 pt-5 display-4 section-header"> About Me</h2>
-          <hr class="border border-secondary">
+        <section id="about" class=" my-5 pt-5">
+          <div class="section-top rounded ">
+            <h2 class="my-3 mt-5 py-4 pl-3 display-4 section-header font-weight-bold  mb-5"> About
+              Me</h2>
+
+          </div>
+
           <div class="row d-flex justify-content-center mt-5 py-3">
-            <h3 class="col-md-8 mx-auto "> Thanks for taking a moment to view my portfolio,</h4>
+            <h3 class="col-md-8 mx-auto text-dark font-weight-bold py-2"> Thanks for taking a moment to view my
+              portfolio,</h4>
               <p class="col-md-8 mx-auto bio my-3">
                 I became interested in programming about around April of 2020 and began
                 following some online
@@ -99,6 +110,7 @@
                 contact me please feel free to send a message through this site or reach out to me on linkedIn
               </p>
           </div>
+
         </section>
 
 
@@ -107,11 +119,16 @@
 
         <!-- Projects -->
         <section id="projects" class="mt-5 pt-5">
-          <h2 class="mt-5 mx-3  display-4 section-header">Projects</h2>
-          <hr class="mb-5  border border-secondary" border border-secondary">
+          <div class="section-top rounded">
+            <h2 class="my-3 mt-5 py-4 pl-3 display-4 section-header font-weight-bold  mb-5">Projects</h2>
+          </div>
+
+
+          <!-- <h2 class="mt-5 mx-3  display-4 section-header font-weight-bold">Projects</h2>
+          <hr class="mb-5  border border-secondary" border border-secondary"> -->
           <div class="row">
-            <div class="col-12 project row mx-auto pb-5 mb-5">
-              <img src="images/WIMS.PNG" alt="" class="col-md-5 mb-3 project-image">
+            <div class="col-12 project row mx-auto pt-5  mb-5">
+              <img src="images/WIMS3.PNG" alt="Project screenshot" class="col-md-5 mb-3  project-image">
               <div class="col-12  col-md-6  mb-3 pb-3 d-flex-md flex-column justify-content-between">
                 <div>
                   <h5 class="font-weight-bold">Work Item Management System</h5>
@@ -124,21 +141,24 @@
                     based on the role of the user. Regular users can create new work items related to bugs or new
                     features,
                     leave notes on an existing
-                    item and edit an item or mark it complete. Managers are also able to delete items or reassign them to
+                    item and edit an item or mark it complete. Managers are also able to delete items or reassign them
+                    to
                     different users, they can also
                     reassign employees to different teams.
                   </p>
-                </div>               
+                </div>
                 <div>
-                  <a href="https://github.com/e-lajeunesse/WorkItemManagementSystem" target="_blank" class="btn form-button">View Code</a>
-                  <a href="" target="_blank" class="btn form-button">View Online</a>
+                  <a href="https://github.com/e-lajeunesse/WorkItemManagementSystem" target="_blank"
+                    class="btn form-button">View Code</a>
+                  <a href="https://wimsmvc.azurewebsites.net" target="_blank" class="btn form-button">View Online</a>
                 </div>
               </div>
             </div>
+            <hr class="col-11 border border-secondary">
           </div>
 
           <div class="row">
-            <div class="col-12 project row mx-auto pb-5 mb-5">
+            <div class="col-12 project row mx-auto pt-5 mb-5">
               <img src="images/janko-ferlic-books-unsplash.jpg" alt="" class="project-image col-md-5 mb-3">
               <div class="col-12 col-md-6 d-flex flex-column justify-content-around">
                 <div>
@@ -155,16 +175,18 @@
                     The API also has methods which utilize
                     the Google Books API to search for books and save them to our database.
                   </p>
-                </div>                
+                </div>
                 <div>
-                  <a href="https://github.com/e-lajeunesse/BookLover" target="_blank" class="btn form-button">View Code</a>                  
+                  <a href="https://github.com/e-lajeunesse/BookLover" target="_blank" class="btn form-button">View
+                    Code</a>
                 </div>
               </div>
             </div>
+            <hr class="col-11 border border-secondary">
           </div>
 
           <div class="row">
-            <div class="col-12 project row mx-auto pb-5 mb-5">
+            <div class="col-12 project row mx-auto  pt-5 mb-5">
               <img src="images/Battleship2.PNG" alt="" class="project-image col-md-5 mb-3">
               <div class="col-12 col-md-6 mb-3 pb-3 d-flex flex-column justify-content-around">
                 <div>
@@ -181,36 +203,42 @@
                     additional ship classes.
                   </p>
                 </div>
-              
+
                 <div>
-                  <a href="https://github.com/e-lajeunesse/Battleship" target="_blank" class="btn form-button">View Code</a>                  
+                  <a href="https://github.com/e-lajeunesse/Battleship" target="_blank" class="btn form-button">View
+                    Code</a>
                 </div>
               </div>
             </div>
+            <hr class="col-11 border border-secondary">
           </div>
 
           <div class="row">
-            <div class="col-12 project row mx-auto mb-5 pb-5">
+            <div class="col-12 project row mx-auto pt-5 mb-5 ">
               <img src="images/calc.PNG" alt="" class="project-image col-md-5 mb-3">
               <div class="col-12 col-md-6 mb-3 pb-3 d-flex flex-column justify-content-around">
                 <div>
                   <h5 class="font-weight-bold">Javascript Calculator</h5>
                   <p>
-                    This is a calculator application with support for the fundamental mathematical operations. The project
+                    This is a calculator application with support for the fundamental mathematical operations. The
+                    project
                     was built using
                     basic Javascript, HTML and CSS.
                   </p>
-                </div>                
+                </div>
                 <div>
-                  <a href="https://github.com/e-lajeunesse/jsCalculator" target="_blank" class="btn form-button">View Code</a>
-                  <a href="https://e-lajeunesse.github.io/jsCalculator/" target="_blank" class="btn form-button">View Online</a>
+                  <a href="https://github.com/e-lajeunesse/jsCalculator" target="_blank" class="btn form-button">View
+                    Code</a>
+                  <a href="https://e-lajeunesse.github.io/jsCalculator/" target="_blank" class="btn form-button">View
+                    Online</a>
                 </div>
               </div>
             </div>
+            <hr class="col-11 border border-secondary">
           </div>
 
           <div class="row">
-            <div class="col-12 project row mx-auto pb-5 mb-5 border-0">
+            <div class="col-12 project row mx-auto pb-5 pt-5 mb-5 border-0">
               <img src="images/etch2.PNG" alt="" class="project-image col-md-5 mb-3">
               <div class="col-12 col-md-6 mb-3 pb-3 d-flex flex-column justify-content-around">
                 <div>
@@ -223,19 +251,28 @@
                 </div>
 
                 <div class="">
-                  <a href="https://github.com/e-lajeunesse/EtchASketch" target="_blank" class="btn form-button">View Code</a>
-                  <a href="https://e-lajeunesse.github.io/EtchASketch/" target="_blank" class="btn form-button">View Online</a>
+                  <a href="https://github.com/e-lajeunesse/EtchASketch" target="_blank" class="btn form-button">View
+                    Code</a>
+                  <a href="https://e-lajeunesse.github.io/EtchASketch/" target="_blank" class="btn form-button">View
+                    Online</a>
                 </div>
               </div>
             </div>
+
           </div>
         </section>
 
 
         <!-- Skills -->
         <section id="skills" class="mb-5 pb-5">
-          <h2 class="mt-5 mx-3 display-4 section-header "> Languages and Technologies </h2>
-          <hr class="border border-secondary mb-5">
+
+          <div class="section-top rounded">
+            <h2 class="my-3 mt-5 py-4 pl-3 display-4 section-header font-weight-bold  mb-5">Languages and technologies
+            </h2>
+          </div>
+
+          <!-- <h2 class="mt-5 mx-3 display-4 section-header font-weight-bold"> Languages and Technologies </h2>
+          <hr class="border border-secondary mb-5"> -->
           <!-- skills images -->
           <div class=" row ">
             <div class="col-5 col-md-2 pb-3 my-2 mx-auto ">
@@ -282,47 +319,41 @@
         <!-- Contact -->
 
         <section id="contact" class="mt-5 pt-5">
-          <h1 class="mt-5 pt-5">Contact Me</h1>
-          <hr class=" mb-5  border border-secondary" />
+
+          <div class="section-top rounded">
+            <h2 class="my-3 mt-5 py-4 pl-3 display-4 section-header font-weight-bold  mb-5">Get in touch</h2>
+          </div>
+
+          <!-- <h2 class="mt-5 pt-5 font-weight-bold display-4 section-header">Contact Me</h2>
+          <hr class=" mb-5  border border-secondary" /> -->
           <div class="col-12 row contact my-5 py-5">
             <form class="col-10 mx-auto" action="https://formspree.io/f/xgereqzk" method="POST">
               <div class="row mb-3">
                 <div class="form-group col-xs-12 col-sm-6 ">
                   <label class="d-none" for="name">Name</label>
-                  <input  class="border border-secondary col-12 form-control input-field " name="name" id="name"
+                  <input class="border border-secondary col-12 form-control input-field " name="name" id="name"
                     placeholder="Name">
                 </div>
                 <div class="form-group col-xs-12 col-sm-6">
                   <label class="d-none" for="email">Email</label>
-                  <input type="email" class="border border-secondary col-12 form-control input-field"
-                    id="email" name="email" placeholder="Email">
+                  <input type="email" class="border border-secondary col-12 form-control input-field" id="email"
+                    name="email" placeholder="Email">
                 </div>
               </div>
-
-
               <div class="form-group">
                 <label class="d-none" for="subject">Subject</label>
-                <input type="text" class="border border-secondary input-field form-control col-md-12  mb-4"
-                  id="subject" name="subject" placeholder="Subject">
+                <input type="text" class="border border-secondary input-field form-control col-md-12  mb-4" id="subject"
+                  name="subject" placeholder="Subject">
               </div>
               <div class="form-group ">
                 <label for="message" class="d-none">Message </label>
-                <textarea name="text" id="message" name="message" rows="8" placeholder="Message" class="input-field col-md-12"></textarea>
+                <textarea name="text" id="message" name="message" rows="8" placeholder="Message"
+                  class="input-field col-md-12"></textarea>
               </div>
               <button type="submit" class="btn form-button">Send Message</button>
             </form>
           </div>
         </section>
-
-
-
-
-
-
-
-
-
-
 
       </div>
 
