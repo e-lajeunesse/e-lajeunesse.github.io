@@ -2,6 +2,7 @@ body{
     font-family: sans-serif;
     color: #626262;
     position: relative;
+    line-height: 1.8;
 }
 
 .social-icon{
@@ -23,6 +24,7 @@ body{
 
 .section-header{
     font-size: 32px;
+    font-weight: 700;
 }
 
 
@@ -40,6 +42,13 @@ body{
     background: url(../Portfolio/images/museum.jpg) no-repeat center center fixed;    
     background-size: cover;
 }
+
+.section-top{
+    background-color: #415a77e5;
+    color: white;
+    min-height: 50%;
+}
+
 .main-content{
     background-color: #FFFFFF;
     /* color:#888888; */
@@ -49,6 +58,9 @@ body{
 
 .section-header{
     font-weight: 400;
+}
+.white-border{
+    border-top:5px solid white;
 }
 
 .spacer{
@@ -123,13 +135,15 @@ background-color: gainsboro;
 /* Projects Section */
 
 .project{    
-    border-bottom: 3px solid #626262;
+    font-size: 1.1em;
+    
 }
+
+
 
 .project-image{
     height:auto;
-    max-width: 350px;
-    
+    max-width: 550px;    
 }
 
 
